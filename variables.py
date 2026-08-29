@@ -25,3 +25,14 @@ e,f,g = countries
 print (e)
 print (f)
 print (g)
+
+
+# Output Variables
+x = "Python is awesome"
+print (x)
+
+a = "Python "
+b = "is "
+c = "awesome"
+
+print(a + b + c)
