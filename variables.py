@@ -36,3 +36,19 @@ b = "is "
 c = "awesome"
 
 print(a + b + c)
+
+
+# Global Variables
+city = 'Dhaka'
+
+def myCity():
+    print('My city name: ', city)
+myCity()    
+
+def myCountry():
+    global Country 
+    Country = 'Bangladesh'
+    print ('My Country name:', Country)
+
+myCountry()
+print('Country from function:', Country)    
