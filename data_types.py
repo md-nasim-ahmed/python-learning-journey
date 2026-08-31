@@ -83,3 +83,10 @@ print (marks)
 
 complex_number = 10 + 20j #complex data types
 print (complex_number)
+
+
+""" String Data Types"""
+name = "Md. Nasim Ahmed"
+print(name)
+print(type(name))
+
