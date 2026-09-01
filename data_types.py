@@ -90,3 +90,16 @@ name = "Md. Nasim Ahmed"
 print(name)
 print(type(name))
 
+
+#Modify Strings
+name = "Md. Nasim Ahmed"
+print (name.upper())
+
+name = "Md. Nasim Ahmed"
+print (name.lower())
+
+name = "Md. Bulbul Islam"
+print (name.replace("Bulbul Islam", "Nasim Ahmed")) 
+
+name = "Md. Nasim Ahmed"
+print (name.split("."))
