@@ -85,7 +85,7 @@ complex_number = 10 + 20j #complex data types
 print (complex_number)
 
 
-""" String Data Types"""
+""" String Data Types - Start"""
 name = "Md. Nasim Ahmed"
 print(name)
 print(type(name))
@@ -103,3 +103,15 @@ print (name.replace("Bulbul Islam", "Nasim Ahmed"))
 
 name = "Md. Nasim Ahmed"
 print (name.split("."))
+
+#String Concatenation
+x = "Hello"
+y = "World"
+z =  x + y
+print(z)
+
+a = "Hello"
+b = "world"
+c = a + " "+ b
+print(c)
+
