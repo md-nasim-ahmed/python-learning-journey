@@ -28,3 +28,19 @@ print (sentence)
 
 slug = "-".join(words) # Concatenation with slug
 print(slug)
+
+
+# Using Formate Method
+word_1 = "Python"
+word_2 = "Developer"
+
+combine = "{} {}".format(word_1,word_2)
+print(combine)
+
+
+# Modules - % Method
+word_3 = "Python"
+word_4 = "Developer"
+
+result = "%s %s" % (word_3,word_4)
+print(result)
